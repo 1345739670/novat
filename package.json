@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:demo": "pnpm run -C example dev:dev",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
     "preinstall": "npx only-allow pnpm"

@@ -1,21 +1,20 @@
-import { App } from 'vue';
-import Button from '@novat/button';
+import type { Component, App } from 'vue'
+import NvButton from '@novat/button'
 
-// 感觉这个方式还是不太对
-import '../scss/index.scss';
-// import component end
-// import '../scss/index.scss';
+// 感觉这个方式还是不太对, 之后再想想
+import '../style/index.scss'
 
 // components
-const components = [Button];
-
-// 全局动态添加组件
-const install = (app: App): void => {
-  components.forEach((component) => {
-    app.component(component.name, component);
-  });
-};
+const components: {
+  [propName: string]: Component;
+} = {
+  NvButton
+}
 
 export default {
-  install,
-};
+  install: (app: App) => {
+    for (const c in components) {
+      app.component(c, components[c])
+    }
+  }
+}

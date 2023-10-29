@@ -1,8 +1,6 @@
-import { App } from 'vue';
-import Button from './src';
+import _Button from './src/button.vue'
+import { withInstall } from '../utils'
 
-Button.install = (app: App) => {
-  app.component(Button.name, Button);
-};
-
-export default Button;
+export const NvButton = withInstall(_Button)
+export default NvButton
+export * from './src/types'

@@ -1,0 +1,55 @@
+@import '../../style/variables.scss';
+
+:root {
+  --nv-button-mini-height: 24px;
+  --nv-button-mini-padding: 0 var(--nv-padding-base);
+  --nv-button-mini-font-size: var(--nv-font-size-xs);
+  --nv-button-small-height: 32px;
+  --nv-button-small-padding: 0 var(--nv-padding-xs);
+  --nv-button-small-font-size: var(--nv-font-size-sm);
+  --nv-button-normal-padding: 0 15px;
+  --nv-button-normal-font-size: var(--nv-font-size-md);
+  --nv-button-large-height: 50px;
+  --nv-button-default-height: 44px;
+  --nv-button-default-line-height: 1.2;
+  --nv-button-default-font-size: var(--nv-font-size-lg);
+  --nv-button-default-color: var(--nv-text-color);
+  --nv-button-default-background: var(--nv-background-2);
+  --nv-button-default-border-color: var(--nv-gray-4);
+  --nv-button-primary-color: var(--nv-white);
+  --nv-button-primary-background: var(--nv-primary-color);
+  --nv-button-primary-border-color: var(--nv-primary-color);
+  --nv-button-success-color: var(--nv-white);
+  --nv-button-success-background: var(--nv-success-color);
+  --nv-button-success-border-color: var(--nv-success-color);
+  --nv-button-danger-color: var(--nv-white);
+  --nv-button-danger-background: var(--nv-danger-color);
+  --nv-button-danger-border-color: var(--nv-danger-color);
+  --nv-button-warning-color: var(--nv-white);
+  --nv-button-warning-background: var(--nv-warning-color);
+  --nv-button-warning-border-color: var(--nv-warning-color);
+  --nv-button-border-width: var(--nv-border-width);
+  --nv-button-radius: var(--nv-radius-md);
+  --nv-button-round-radius: var(--nv-radius-max);
+  --nv-button-plain-background: var(--nv-white);
+  --nv-button-disabled-opacity: var(--nv-disabled-opacity);
+  --nv-button-icon-size: 1.2em;
+  --nv-button-loading-icon-size: 20px;
+}
+
+.nv-button {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  height: var(--nv-button-default-height);
+  margin: 0;
+  padding: 0;
+  font-size: var(--nv-button-default-font-size);
+  line-height: var(--nv-button-default-line-height);
+  text-align: center;
+  border-radius: var(--nv-button-radius);
+  cursor: pointer;
+  transition: opacity var(--nv-duration-fast);
+  -webkit-appearance: none;
+  -webkit-font-smoothing: auto;
+}

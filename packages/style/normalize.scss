@@ -1,0 +1,67 @@
+// @import './color/colors.less';
+// @import './variables.scss';
+
+*,
+*::before,
+*::after {
+  position: relative;
+  margin: 0;
+  font-weight: normal;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-size: var(--nv-base-font);
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  color: var(nv-gray);
+  background: #f3f3f3;
+  transition: color var(--nv-duration-base), background-color var(--nv-duration-base);
+  line-height: 20px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+hr,
+button,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+img {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,90 @@
+:root {
+  // Color Palette
+  --nv-black: #000;
+  --nv-white: #fff;
+  --nv-gray: #444;
+  --nv-gray-1: #f7f8fa;
+  --nv-gray-2: #f2f3f5;
+  --nv-gray-3: #ebedf0;
+  --nv-gray-4: #dcdee0;
+  --nv-gray-5: #c8c9cc;
+  --nv-gray-6: #969799;
+  --nv-gray-7: #646566;
+  --nv-gray-8: #323233;
+  --nv-red: #ee0a24;
+  --nv-blue: #1989fa;
+  --nv-orange: #ff976a;
+  --nv-orange-dark: #ed6a0c;
+  --nv-orange-light: #fffbe8;
+  --nv-green: #07c160;
+
+  // Gradient Colors
+  --nv-gradient-red: linear-gradient(to right, #ff6034, #ee0a24);
+  --nv-gradient-orange: linear-gradient(to right, #ffd01e, #ff8917);
+
+  // Component Colors
+  --nv-primary-color: var(--nv-blue);
+  --nv-success-color: var(--nv-green);
+  --nv-danger-color: var(--nv-red);
+  --nv-warning-color: var(--nv-orange);
+  --nv-text-color: var(--nv-gray-8);
+  --nv-text-color-2: var(--nv-gray-6);
+  --nv-text-color-3: var(--nv-gray-5);
+  --nv-active-color: var(--nv-gray-2);
+  --nv-active-opacity: 0.6;
+  --nv-disabled-opacity: 0.5;
+  --nv-background: var(--nv-gray-1);
+  --nv-background-2: var(--nv-white);
+  --nv-background-3: var(--nv-white);
+
+  // Padding
+  --nv-padding-base: 4px;
+  --nv-padding-xs: 8px;
+  --nv-padding-sm: 12px;
+  --nv-padding-md: 16px;
+  --nv-padding-lg: 24px;
+  --nv-padding-xl: 32px;
+
+  // Font
+  --nv-font-bold: 600;
+  --nv-font-size-xs: 10px;
+  --nv-font-size-sm: 12px;
+  --nv-font-size-md: 14px;
+  --nv-font-size-lg: 16px;
+  --nv-line-height-xs: 14px;
+  --nv-line-height-sm: 18px;
+  --nv-line-height-md: 20px;
+  --nv-line-height-lg: 22px;
+  /* stylelint-disable */
+  --nv-base-font: -apple-system, BlinkMacSystemFont, 'Helvetica Neue',
+    Helvetica, Segoe UI, Arial, Roboto, 'PingFang SC', 'miui',
+    'Hiragino Sans GB', 'Microsoft Yahei', sans-serif;
+  --nv-price-font: avenir-heavy, 'PingFang SC', helvetica neue, arial,
+    sans-serif;
+  /* stylelint-enable */
+
+  // Animation
+  --nv-duration-base: 0.3s;
+  --nv-duration-fast: 0.2s;
+  --nv-ease-out: ease-out;
+  --nv-ease-in: ease-in;
+
+  // Border
+  --nv-border-color: var(--nv-gray-3);
+  --nv-border-width: 1px;
+  --nv-radius-sm: 2px;
+  --nv-radius-md: 4px;
+  --nv-radius-lg: 8px;
+  --nv-radius-max: 999px;
+}
+
+.nv-theme-dark {
+  --nv-text-color: #f5f5f5;
+  --nv-text-color-2: #707070;
+  --nv-text-color-3: #4d4d4d;
+  --nv-border-color: #3a3a3c;
+  --nv-active-color: #3a3a3c;
+  --nv-background: #000;
+  --nv-background-2: #1c1c1e;
+  --nv-background-3: #37363b;
+}
