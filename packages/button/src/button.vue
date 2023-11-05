@@ -43,4 +43,3 @@ const iconCls = computed(() => {
   }
 })
 </script>
-../../style
