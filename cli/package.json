@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Klein",
   "license": "ISC",
   "devDependencies": {
     "@types/inquirer": "8.2.5",
